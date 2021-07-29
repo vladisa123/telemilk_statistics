@@ -9,7 +9,14 @@ def mul(a,b):
 
 def squares ():
     squares = [e*e for e in range(10) if e%2 == 0] # listcomps
-    return squares
+
+    text = 'hello world'
+    words = [word.capitalize() for word in text.split()]
+
+    ints = [1,4,2,-12]
+    positives = [num for num in ints if num > 0]
+
+    return squares, words, positives
 
 
 if __name__ == '__main__':
