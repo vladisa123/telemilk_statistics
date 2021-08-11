@@ -1,7 +1,7 @@
 from telethon import TelegramClient
 from pprint import pprint
 from telethon.tl.custom import Button
-from telethon.tl.functions.messages import GetHistoryRequest
+from telethon.tl.functions.messages import GetHistoryRequest, ImportChatInviteRequest
 from telethon.tl.functions.channels import GetFullChannelRequest, JoinChannelRequest
 
 import random
@@ -58,7 +58,8 @@ async def main():
 
     # добавляемся в тестовый канал
 
-    join_channel = await telegramClient(JoinChannelRequest(test_channel_id))
+    join_channel = await telegramClient(ImportChatInviteRequest('t036MF7Ycw82NmM9'))
+    print(join_channel)
 
     # достаем инфу о канале с помощью метода get_entity
 
