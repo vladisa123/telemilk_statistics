@@ -2,8 +2,7 @@ from telethon import TelegramClient
 from pprint import pprint
 from telethon.tl.custom import Button
 from telethon.tl.functions.messages import GetHistoryRequest
-from telethon.tl.functions.channels import GetFullChannelRequest
-
+from telethon.tl.functions.channels import GetFullChannelRequest, JoinChannelRequest
 
 import random
 import json
@@ -14,7 +13,11 @@ import json
 api_id = 6839459
 api_hash = '0595d82ee8849cfa9942153e9dc32703'
 
-test_channel_id = -1001250671663
+test_channel_id = 'https://t.me/joinchat/t036MF7Ycw82NmM9'
+
+
+
+
 
 # Токен бота получаем в @botFather в самой телеге, так изи думаю это ты уже сделал
 bot_token = '1180457199:AAF9mxKfFrSKcb4SK9F9HCGs4763MyHsqdU'
@@ -51,6 +54,11 @@ async def main():
     # Chat admin privileges are required to do that in the specified chat
     # (for example, to send a message in a channel which is not yours),
     # or invalid permissions used for the channel or group (caused by GetBroadcastStatsRequest)
+
+
+    # добавляемся в тестовый канал
+
+    join_channel = await telegramClient(JoinChannelRequest(test_channel_id))
 
     # достаем инфу о канале с помощью метода get_entity
 
