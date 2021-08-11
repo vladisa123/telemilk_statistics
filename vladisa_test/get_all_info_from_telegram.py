@@ -14,6 +14,8 @@ import json
 api_id = 6839459
 api_hash = '0595d82ee8849cfa9942153e9dc32703'
 
+test_channel_id = -1001250671663
+
 # Токен бота получаем в @botFather в самой телеге, так изи думаю это ты уже сделал
 bot_token = '1180457199:AAF9mxKfFrSKcb4SK9F9HCGs4763MyHsqdU'
 
@@ -34,11 +36,14 @@ async def main():
 
     # например соберем все диалоги пользователя через которого ты зашел
     async for dialog in telegramClient.iter_dialogs():
-        print(dialog.name, 'has ID', dialog.id)
 
-    # для разбора будем использовать тестовый канал с id -1001250671663
+        # print(dialog.name, 'has ID', dialog.id)
 
-    # если работать с функцией    channel_info = await telegramClient.get_stats(-1001250671663)
+        pass
+
+    # для разбора будем использовать тестовый канал с id test_channel_id
+
+    # если работать с функцией    channel_info = await telegramClient.get_stats(test_channel_id)
     # то можно словить трейс, о том что ты не являешься админом канала, возможно, поэтому лучше юзать get_entety
     # вот фулл трейс
 
@@ -49,7 +54,7 @@ async def main():
 
     # достаем инфу о канале с помощью метода get_entity
 
-    full_channel_info = await telegramClient(GetFullChannelRequest(channel=-1001250671663))
+    full_channel_info = await telegramClient(GetFullChannelRequest(channel=test_channel_id))
 
     full_channel_info = full_channel_info.to_dict()
     full_channel_info = json.dumps(full_channel_info, indent=4, sort_keys=True, ensure_ascii=False, default=str)
@@ -59,7 +64,7 @@ async def main():
 
     # достаем инфу о канале с помощью метода get_entity
 
-    channel_info = await telegramClient.get_entity(-1001250671663)
+    channel_info = await telegramClient.get_entity(test_channel_id)
 
     channel_info = channel_info.to_dict()
     channel_info = json.dumps(channel_info, indent=4, sort_keys=True, ensure_ascii=False, default=str)
@@ -130,7 +135,7 @@ async def main():
 
     # достаем конкретный месседж по id с помощбю метода get_messages
 
-    chosen_mess = (await telegramClient.get_messages(-1001250671663, 125))[0]
+    chosen_mess = (await telegramClient.get_messages(test_channel_id, 125))[0]
 
     chosen_mess = chosen_mess.to_dict()
     chosen_mess = json.dumps(chosen_mess, indent=4, sort_keys=True, ensure_ascii=False, default=str)
@@ -250,7 +255,7 @@ async def main():
 
 
     posts = await telegramClient(GetHistoryRequest(
-        peer= -1001250671663,
+        peer= test_channel_id,
         limit= 1, # лимит на посты, поставим 1 пост
         offset_date=None, # посты за какую дату нам нужны здесь либо None либо дату в формате time если я не ошибаюсь
         offset_id=0, # id поста с которого начнется итерация
