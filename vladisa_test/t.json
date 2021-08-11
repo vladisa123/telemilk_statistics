@@ -1,0 +1,172 @@
+{
+  "_": "Channel" ,
+  "access_hash": -8115980619907360606 ,
+  "admin_rights": {
+    "_": "ChatAdminRights" ,
+    "add_admins": "True" ,
+    "anonymous": "False" ,
+    "ban_users": "True" ,
+    "change_info": "True" ,
+    "delete_messages": "True" ,
+    "edit_messages": "True" ,
+    "invite_users": "True" ,
+    "manage_call": "True" ,
+    "other": "True" ,
+    "pin_messages": "True" ,
+    "post_messages": "True"
+  } ,
+  "banned_rights": "None" ,
+  "broadcast": "True" ,
+  "call_active": "False" ,
+  "call_not_empty": "False" ,
+  "creator": "True" ,
+  "date": "2021-04-08 13:27:52+00:00" ,
+  "default_banned_rights": "None" ,
+  "fake": "False" ,
+  "gigagroup": "False" ,
+  "has_geo": "False" ,
+  "has_link": "False" ,
+  "id": 1250671663 ,
+  "left": "False" ,
+  "megagroup": "False" ,
+  "min": "False" ,
+  "participants_count": "None" ,
+  "photo": {
+    "_": "ChatPhoto" ,
+    "dc_id": 2 ,
+    "has_video": "False" ,
+    "photo_big": {
+      "_": "FileLocationToBeDeprecated" ,
+      "local_id": 54843 ,
+      "volume_id": 200300000277
+    } ,
+    "photo_small": {
+      "_": "FileLocationToBeDeprecated" ,
+      "local_id": 54841 ,
+      "volume_id": 200300000277
+    }
+  } ,
+  "restricted": "False" ,
+  "restriction_reason": [ ] ,
+  "scam": "False" ,
+  "signatures": "False" ,
+  "slowmode_enabled": "False" ,
+  "title": "Test Chanel" ,
+  "username": "None" ,
+  "verified": "False" ,
+  "version": 0
+};
+
+
+{
+  '_': "Message" ,
+  'date': '2021-05-21 09:43:56+00:00' ,
+  'edit_date': None ,
+  'edit_hide': False ,
+  'entities': [
+    {
+      '_': 'MessageEntityTextUrl' ,
+      'length': 6 ,
+      'offset': 0 ,
+      'url': 'https://ya.ru/'
+    }
+  ] ,
+  'forwards': 0 ,
+  'from_id': None ,
+  'from_scheduled': False ,
+  'fwd_from': None ,
+  'grouped_id': None ,
+  'id': 125 ,
+  'legacy': False ,
+  'media': {
+    '_': 'MessageMediaPhoto' ,
+    'photo': {
+      '_': 'Photo' ,
+      'access_hash': 7174488044190277104 ,
+      'date': '2021-05-21 09:40:02+00:00' ,
+      'dc_id': 2 ,
+      'file_reference': "b'\\x04J\\x8b\\xbc/\\x00\\x00\\x00}`\\xf5\\xc1B\\xd3\\x1f\\xea\\xe2F\\x06z\\x9f]\\x1a \\x00\\xf9\\xd2A\\xcd'" ,
+      'has_stickers': False ,
+      'id': 5278307854241084266 ,
+      'sizes': [
+        {
+          '_': 'PhotoStrippedSize' ,
+          'bytes': "b'\\x01((\\xb1\\xbc\\xd3w\\xf3A\\xa8\\xe4\\xf3?\\x80/\\xe2k+\\x16O\\xe6\\x1cS\\x86\\xe3T\\xdb\\xed\\x05\\x0ev)\\x1d\\xc1\\xa5\\xb3\\x9ac!I>a\\x8c\\x83Um\\x05}l]\\x03\\x14Rf\\x8a\\x91\\x90\\xd1\\x8ek7\\xed\\x13\\xa3\\x94$\\xee\\x1d\\xb1R%\\xf9\\x1c:\\x8f\\xe5U`\\xb9\\xa0c\\xdf\\x13\\x0f\\xe2\\xedTVO*d# \\x03\\x82*d\\xbe\\x8c\\xaf9\\x15Vy\\xb7\\xcd\\xb8s\\xebUO{2&\\xae\\xae\\x8dl\\x83\\xc8\\xa2\\xaaCs\\x0f\\x96\\xaad\\x19\\x02\\x8a\\x86\\xacZ\\xd4\\x9b\\x1c\\xe6\\x86\\x8d\\\\a\\xd47\\xd4QE+\\x8c\\x88\\xd9@N|\\xbc}\\t\\xa6\\x9d>\\x12>]\\xca~\\xb9\\xa2\\x8a\\x14\\x98\\x9a#\\x1ah\\x0b\\xcc\\x87?J(\\xa2\\x9f3\\x0b#'" ,
+          'type': 'i'
+        } ,
+        {
+          '_': 'PhotoSize' ,
+          'h': 320 ,
+          'location': {
+            '_': 'FileLocationToBeDeprecated' ,
+            'local_id': 288596 ,
+            'volume_id': 200236100633
+          } ,
+          'size': 16483 ,
+          'type': 'm' ,
+          'w': 320
+        } ,
+        {
+          '_': 'PhotoSize' ,
+          'h': 800 ,
+          'location': {
+            '_': 'FileLocationToBeDeprecated' ,
+            'local_id': 288597 ,
+            'volume_id': 200236100633
+          } ,
+          'size': 70015 ,
+          'type': 'x' ,
+          'w': 800
+        } ,
+        {
+          '_': 'PhotoSizeProgressive' ,
+          'h': 1280 ,
+          'location': {
+            '_': 'FileLocationToBeDeprecated' ,
+            'local_id': 288594 ,
+            'volume_id': 200236100633
+          } ,
+          'sizes': [
+            18388 ,
+            37436 ,
+            52754 ,
+            77034 ,
+            173426
+          ] ,
+          'type': 'y' ,
+          'w': 1280
+        }
+      ] ,
+      'video_sizes': [ ]
+    } ,
+    'ttl_seconds': None
+  } ,
+  'media_unread': False ,
+  'mentioned': False ,
+  'message': 'ссылка' ,
+  'out': True ,
+  'peer_id': {
+    '_': 'PeerChannel' ,
+    'channel_id': 1250671663
+  } ,
+  'pinned': False ,
+  'post': True ,
+  'post_author': None ,
+  'replies': None ,
+  'reply_markup': None ,
+  'reply_to': None ,
+  'restriction_reason': [ ] ,
+  'silent': False ,
+  'ttl_period': None ,
+  'via_bot_id': None ,
+  'views': 4
+}
+
+
+{
+'_': 'ChatFull', 'chats': [
+{ '_': 'Channel', 'access_hash': -8115980619907360606, 'admin_rights': { '_': 'ChatAdminRights', 'add_admins': True, 'anonymous': False, 'ban_users': True, 'change_info': True, 'delete_messages': True, 'edit_messages': True, 'invite_users': True, 'manage_call': True, 'other': True, 'pin_messages': True, 'post_messages': True }, 'banned_rights': None, 'broadcast': True, 'call_active': False, 'call_not_empty': False, 'creator': True, 'date': '2021-04-08 13:27:52+00:00', 'default_banned_rights': None, 'fake': False, 'gigagroup': False, 'has_geo': False, 'has_link': False, 'id': 1250671663, 'left': False, 'megagroup': False, 'min': False, 'participants_count': None, 'photo': { '_': 'ChatPhoto', 'dc_id': 2, 'has_video': False, 'photo_big': { '_': 'FileLocationToBeDeprecated', 'local_id': 54843, 'volume_id': 200300000277 }, 'photo_small': { '_': 'FileLocationToBeDeprecated', 'local_id': 54841, 'volume_id': 200300000277} }, 'restricted': False, 'restriction_reason': [ ], 'scam': False, 'signatures': False, 'slowmode_enabled': False, 'title': 'Test Chanel', 'username': None, 'verified': False, 'version': 0 }
+], 'full_chat': {'_': 'ChannelFull', 'about': 'Cycyuucyyxtxjv', 'admins_count': 2, 'available_min_id': None, 'banned_count': 0, 'blocked': False, 'bot_info': [ {'_': 'BotInfo', 'commands': [ ], 'description': 'Что стоишь? Давай выпьем,родной🍺', 'user_id': 1180457199} ], 'call': None, 'can_set_location': False, 'can_set_stickers': False, 'can_set_username': True, 'can_view_participants': True, 'can_view_stats': False, 'chat_photo': {'_': 'Photo', 'access_hash': -494102156829167278, 'date': '2021-04-08 14:44:12+00:00', 'dc_id': 2, 'file_reference': "b'\\x00`\\xf5\\xc7\\xb2\\x837\\x00\\x81\\x86N\\xff-\\x83U\\xe85\\xb2\\x9b\\x12?'", 'has_stickers': False, 'id': 5438146758673805643, 'sizes': [ {'_': 'PhotoSize', 'h': 160, 'location': {'_': 'FileLocationToBeDeprecated', 'local_id': 54841, 'volume_id': 200300000277}, 'size': 3815, 'type': 'a', 'w': 160}, {'_': 'PhotoSize', 'h': 320, 'location': {'_': 'FileLocationToBeDeprecated', 'local_id': 54842, 'volume_id': 200300000277}, 'size': 9603, 'type': 'b', 'w': 320}, {'_': 'PhotoSize', 'h': 640, 'location': {'_': 'FileLocationToBeDeprecated', 'local_id': 54843, 'volume_id': 200300000277}, 'size': 25140, 'type': 'c', 'w': 640}, {'_': 'PhotoStrippedSize', 'bytes': "b'\\x01((\\xcb4\\x94\\xb4\\x05$\\x12\\x018\\xa4\\xcaBQN\\xd8\\xdf\\xdd?\\x95!\\x04u\\x04}E!\\x89E\\x14P\\x02\\xd5\\xab{Id\\x8fz\\xbe\\xd0j\\xad=.\\xa5\\x89v\\xa3`zc4\\xe4\\xa4\\xd7\\xbaLZOR\\xe7\\xd8\\xa6\\xff\\x00\\x9e\\xc7\\xf5\\xa8\\xae-%\\x8e=\\xec\\xfb\\x80\\xf5\\xa8\\xfe\\xdd?\\xf7\\xc7\\xe4)\\xb2\\\\\\xcb*\\xedv\\xe3\\xd0\\x0cViN\\xfa\\xb3K\\xc5\\xecEE\\x14V\\x82\\x03M\\xa2\\x8a\\xa3 \\xa5\\x06\\x8a(`\\x98\\xb4QEI\\xa9'", 'type': 'i'} ], 'video_sizes': [ ]}, 'exported_invite': {'_': 'ChatInviteExported', 'admin_id': 293556094, 'date': '2021-04-08 13:27:53+00:00', 'expire_date': None, 'link': 'https://t.me/joinchat/yROAkNuLR6o5ZTA6', 'permanent': True, 'revoked': False, 'start_date': None, 'usage': 1, 'usage_limit': None}, 'folder_id': None, 'groupcall_default_join_as': None, 'has_scheduled': False, 'hidden_prehistory': False, 'id': 1250671663, 'kicked_count': 0, 'linked_chat_id': None, 'location': None, 'migrated_from_chat_id': None, 'migrated_from_max_id': None, 'notify_settings': {'_': 'PeerNotifySettings', 'mute_until': None, 'show_previews': None, 'silent': None, 'sound': None}, 'online_count': None, 'participants_count': 3, 'pending_suggestions': [ ], 'pinned_msg_id': None, 'pts': 244, 'read_inbox_max_id': 125, 'read_outbox_max_id': 0, 'slowmode_next_send_date': None, 'slowmode_seconds': None, 'stats_dc': 2, 'stickerset': None, 'ttl_period': None, 'unread_count': 0}, 'users': [
+{'_': 'User', 'access_hash': -1646107163120345033, 'apply_min_photo': True, 'bot': False, 'bot_chat_history': False, 'bot_info_version': None, 'bot_inline_geo': False, 'bot_inline_placeholder': None, 'bot_nochats': False, 'contact': True, 'deleted': False, 'fake': False, 'first_name': 'Vladisa_S', 'id': 293556094, 'is_self': True, 'lang_code': None, 'last_name': None, 'min': False, 'mutual_contact': True, 'phone': '79603648467', 'photo': {'_': 'UserProfilePhoto', 'dc_id': 2, 'has_video': False, 'photo_big': {'_': 'FileLocationToBeDeprecated', 'local_id': 98819, 'volume_id': 200419700874}, 'photo_id': 1260813823727740900, 'photo_small': {'_': 'FileLocationToBeDeprecated', 'local_id': 98817, 'volume_id': 200419700874}}, 'restricted': False, 'restriction_reason': [ ], 'scam': False, 'status': {'_': 'UserStatusOffline', 'was_online': '2021-07-19 18:40:04+00:00'}, 'support': False, 'username': 'vladisa_s', 'verified': False}, {'_': 'User', 'access_hash': -3487902355318270573, 'apply_min_photo': True, 'bot': True, 'bot_chat_history': False, 'bot_info_version': 8, 'bot_inline_geo': False, 'bot_inline_placeholder': None, 'bot_nochats': False, 'contact': False, 'deleted': False, 'fake': False, 'first_name': 'TeleMilk', 'id': 1180457199, 'is_self': False, 'lang_code': None, 'last_name': None, 'min': False, 'mutual_contact': False, 'phone': None, 'photo': {'_': 'UserProfilePhoto', 'dc_id': 2, 'has_video': False, 'photo_big': {'_': 'FileLocationToBeDeprecated', 'local_id': 185594, 'volume_id': 200067700655}, 'photo_id': 5278409035080643243, 'photo_small': {'_': 'FileLocationToBeDeprecated', 'local_id': 185592, 'volume_id': 200067700655}}, 'restricted': False, 'restriction_reason': [ ], 'scam': False, 'status': None, 'support': False, 'username': 'Gashek_pub_bot', 'verified': False}
+]
+}
